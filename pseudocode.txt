@@ -1,0 +1,13 @@
+START
+INPUT n
+SET factorial = 1
+IF n = 0 OR n = 1 THEN
+     FACTORIAL = 1
+
+ELSE
+     FOR i FROM 2 TO n DO
+         factorial = factorial * i
+     END FOR
+END IF
+PRINT "Factorial is", factorial
+END
